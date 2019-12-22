@@ -53,6 +53,20 @@ header {
     border: 1px solid #cccccc;
 }
 
+#portfolio {
+    height: 350px;
+}
+
+.banner {
+    position: absolute;
+    top: 460px;
+    color: white;
+    background-color: #4aaaa5;
+    width: 200px;
+    text-align: center;
+    
+}
+
 #aboutMe {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     font-size: 30px;
@@ -76,6 +90,13 @@ header {
 .box {
     height: 200px;
     width: 200px;
+    position: relative;
+}
+
+.images {
+    
+    float: left;
+    margin-right: 15px;
 }
 
 input[type=text], select, textarea {
